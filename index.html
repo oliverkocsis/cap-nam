@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cap-nam</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>cap-nam</h1>
+      <p class="subtitle">
+        You are the Ghost. Use arrow keys to catch Pac-Man before all dots are
+        eaten.
+      </p>
+      <div class="canvas-wrap">
+        <canvas id="game" aria-label="cap-nam game board"></canvas>
+        <div id="status" class="status" aria-live="polite"></div>
+      </div>
+      <p class="hint">Tip: Pac-Man turns randomly at intersections.</p>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
